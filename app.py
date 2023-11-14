@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_chat import message
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
-import openai
+from langchain.chat_models import openai
 from htmlTemplates import css, bot_template, user_template
 from langchain.text_splitter import CharacterTextSplitter # help divide text into chunks
 from langchain.embeddings import OpenAIEmbeddings, HuggingFaceInstructEmbeddings
