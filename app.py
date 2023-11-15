@@ -16,7 +16,7 @@ from langchain.memory import ConversationBufferMemory
 
 class chat_PDF:
 
-    #function to read and extract text from documen
+    #function to read and extract text from documents
     def get_pdf_text(self,pdf_docs):
         # Initialize an empty string to store the text content
         text = ""
